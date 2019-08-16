@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - PrintMe",
+            "request": "launch",
+            "mainClass": "Jv_190816_01.PrintMe",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Add",
             "request": "launch",
             "mainClass": "Jv_190816_01.Add",
