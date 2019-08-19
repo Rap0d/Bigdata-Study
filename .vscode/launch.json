@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Casting",
+            "request": "launch",
+            "mainClass": "Jv_190819_02.Casting",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Condition",
             "request": "launch",
             "mainClass": "Jv_190819_02.Condition",

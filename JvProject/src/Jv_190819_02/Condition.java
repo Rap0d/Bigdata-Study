@@ -26,5 +26,16 @@ public class Condition {
         x = 5; y = 12;
         String str = y%x == 0 ? "yes" : "no";
         System.out.println("str : " + str);
+
+        int i, j, k, res, tmp;
+        i = 8; j = 3; k = 9;
+        tmp = i > j ? i : j;
+        res = k > tmp ? k : tmp;
+
+        int imsi = i > j ? (i > k ? i : k) : (j > k ? j : k); // 중첩
+
+        System.out.println("Result : " + res);
+        System.out.println("Result : " + imsi);
+           
     }
 }
