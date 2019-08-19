@@ -25,7 +25,7 @@ public class Casting {
         System.out.println(b1);
 
         int res = ch1 - ch2 + 3;
-        System.out.println(res);    
+        System.out.println(res);
 
         char ch3 = 'D';
         String str = ch3 >= 'A' && ch3 <= 'Z' ? "대문자" : "소문자";
