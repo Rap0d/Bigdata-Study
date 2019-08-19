@@ -21,5 +21,5 @@ public class MyPay {
         }
 
         System.out.println(hours + "시간 근무시, 임금은 " + pay + "입니다.");
-    }
+    } 
 }
