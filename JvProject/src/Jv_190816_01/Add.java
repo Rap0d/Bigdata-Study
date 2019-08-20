@@ -4,6 +4,10 @@ import java.util.Scanner;
 
 public class Add {
     public static void main(String[] args) {
+        Add01();
+    }
+
+    private static void Add01() {
         Scanner sc = new Scanner(System.in);
         int x;
         int y, z;

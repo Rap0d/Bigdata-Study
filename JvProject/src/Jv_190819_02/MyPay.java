@@ -8,7 +8,15 @@ import java.util.Random;
 public class MyPay {
 
     public static void main(String[] args) {
-        final int RATE = 5000;
+        Pay();
+    }
+
+    private static void Pay() {
+        Pay2();
+    }
+
+	private static void Pay2() {
+		final int RATE = 5000;
         double pay = 0;
         int hours = 0;
 
@@ -23,5 +31,5 @@ public class MyPay {
         }
 
         System.out.println(hours + "시간 근무시, 임금은 " + pay + "입니다.");
-    } 
+	} 
 }

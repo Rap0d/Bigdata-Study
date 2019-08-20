@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - SwitEx",
+            "request": "launch",
+            "mainClass": "Jv_190820_03.SwitEx",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - For01",
+            "request": "launch",
+            "mainClass": "Jv_190820_03.For01",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SayHello",
+            "request": "launch",
+            "mainClass": "Jv_190820_03.SayHello",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - newfile",
             "request": "launch",
             "mainClass": "Jv_190820_03.newfile",
