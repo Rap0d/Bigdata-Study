@@ -15,7 +15,32 @@ public class For01 {
 
         Pow(3);
 
-        Star(3, 5);
+        Star(0, 10);
+        Star2(4, 10);
+        
+        For02(20);
+    }
+
+    private static void For02(int max) {
+        int odd = 0, even = 0;
+
+        for (int i = 1; i <= max; i++) {
+            if(i%2 == 0)
+            even += i;
+            else
+            odd += i;
+        }
+
+        System.out.println("Odd : " + odd);
+        System.out.println("Even : " + even);
+    }
+
+    private static void Star2(int st, int max) {
+        for (int i = 1; i <= max; i++) {
+            System.out.print("*");
+            if(i%st == 0)
+            System.out.println();
+        }
     }
 
     private static void Star(int row1, int col1) {
