@@ -2,10 +2,19 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - ArrayEx",
+            "request": "launch",
+            "mainClass": "Jv_190821_04.ArrayEx",
+            "projectName": "JvProject",
+            "console": "integratedTerminal"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - WhileEx",
             "request": "launch",
             "mainClass": "Jv_190821_04.WhileEx",
-            "projectName": "JvProject"
+            "projectName": "JvProject",
+            "console": "integratedTerminal"
         },
         {
             "type": "java",
