@@ -12,7 +12,30 @@ public class WhileEx {
 		// Ex4();
 		// Ex5();
 		// Ex6();
-		Ex7();
+		// Ex7();
+		Ex8();
+	}
+
+	private static void Ex8() {
+		int[] a = new int[3] ;        
+        for (int i  = 0; i  < a.length; i ++) {
+            a[i] = 10 * ( i + 1 ) ;
+            System.out.print( a[i] + "\t" );            
+        }
+        System.out.println();
+        
+        int[] b = new int[98/5+1] ;        
+        for (int i  = 0; i  < b.length; i ++) {
+            b[i] = 5 * i + 3 ;
+            System.out.print( b[i] + "\t" );            
+        }
+        System.out.println();
+        
+        int[] c = new int[92/10+1] ;        
+        for (int i  = 0; i  < c.length; i ++) {
+            c[i] = 92 - 10 *  i ;
+            System.out.print( c[i] + "\t" );            
+        }
 	}
 
 	private static void Ex7() {
@@ -40,7 +63,7 @@ public class WhileEx {
 			}
 			System.out.println();
 		}
-		
+
 		System.out.println();
 
 		for (int i = 1; i < 6; i++) {
@@ -93,6 +116,7 @@ public class WhileEx {
 				System.out.println(cnt + "번 째 실패");
 			}
 		}
+		sc.close();
 	}
 
 	private static void Ex4() {
@@ -112,6 +136,7 @@ public class WhileEx {
 
 			System.out.println(cnt + "번째 입력한 자연수는 : " + x1);
 		}
+		sc.close();
 	}
 
 	private static void Ex3(int max) {
