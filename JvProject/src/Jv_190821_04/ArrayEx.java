@@ -36,6 +36,7 @@ public class ArrayEx {
         for (int i = 0; i < celeb.length; i++) {
             System.out.print(celeb[i] + "\t");
         }
+        sc.close();
     }
 
     private static void Ex01() {
