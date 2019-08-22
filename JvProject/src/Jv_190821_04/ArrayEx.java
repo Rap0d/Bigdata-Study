@@ -1,5 +1,6 @@
 package Jv_190821_04;
 
+import java.util.Random;
 import java.util.Scanner;
 
 /**
@@ -8,34 +9,78 @@ import java.util.Scanner;
 public class ArrayEx {
 
     public static void main(String[] args) {
-        Ex01();
-        celeb();
+        // Ex01();
+        // celeb();
+        // Ex02();
+        Ex03();
+    }
+
+    private static void Ex03() {
+        int max = 5;
+        int[] arr = new int[max];
+
+        Scanner sc = new Scanner(System.in);
+
+        int odd = 0, even = 0;
+
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print("입력하세요 : ");
+            arr[i] = sc.nextInt();
+            if(arr[i]%2 == 0)
+            even += arr[i];
+            else
+            odd += arr[i];
+        }
+
+        System.out.println("even : " + even + ", odd : " + odd);
+    }
+
+    private static void Ex02() {
+        int[] ar = new int[5];
+        int total = 0;
+
+        for(int i = 0; i < ar.length; i++) {
+            ar[i] = new Random().nextInt(3) + 3;
+        }
+        for (int i : ar) {
+            total += i;
+            System.out.println("i : " + i);
+        }
+
+        System.out.println("total : " + total);
     }
 
     private static void celeb() {
         int max = 0;
         Scanner sc = new Scanner(System.in);
-        String tmp = "";
+        double tmp;
+        double total = 0.0;
 
-        System.out.print("배열의 크기는 ?");
+        System.out.print("배열의 크기는 ? ");
         try {
             max = sc.nextInt();   
         } catch (Exception e) {
             System.err.println("숫자가 아니애오");
         }
 
-        String[] celeb = new String[max];
+        Double[] celeb = new Double[max];
 
         for (int i = 0; i < celeb.length; i++) {
-            System.out.print("배열에 넣을 값을 넣어주세요 : ");
-            tmp = sc.nextLine();
+            System.out.print("배열에 넣을 점수를 넣어주세요 : ");
+            tmp = sc.nextDouble();
             celeb[i] = tmp;
         }
+
+        System.out.println("---------------------------------------------------------------");
 
         // 반복문을 이용하여 요소들을 출력한다.
         for (int i = 0; i < celeb.length; i++) {
             System.out.print(celeb[i] + "\t");
+            total += celeb[i];
         }
+        System.out.println();
+        System.out.println("---------------------------------------------------------------");
+        System.out.println("total : " + total + ", Avg : " + total / max);
         sc.close();
     }
 

@@ -13,29 +13,40 @@ public class WhileEx {
 		// Ex5();
 		// Ex6();
 		// Ex7();
-		Ex8();
+		// Ex8();
+		Ex9();
+	}
+
+	private static void Ex9() {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("실수를 입력하세요 : ");
+
+		double su = sc.nextDouble();
+		System.out.println(su);
+
+		sc.close();
 	}
 
 	private static void Ex8() {
-		int[] a = new int[3] ;        
-        for (int i  = 0; i  < a.length; i ++) {
-            a[i] = 10 * ( i + 1 ) ;
-            System.out.print( a[i] + "\t" );            
-        }
-        System.out.println();
-        
-        int[] b = new int[98/5+1] ;        
-        for (int i  = 0; i  < b.length; i ++) {
-            b[i] = 5 * i + 3 ;
-            System.out.print( b[i] + "\t" );            
-        }
-        System.out.println();
-        
-        int[] c = new int[92/10+1] ;        
-        for (int i  = 0; i  < c.length; i ++) {
-            c[i] = 92 - 10 *  i ;
-            System.out.print( c[i] + "\t" );            
-        }
+		int[] a = new int[3];
+		for (int i = 0; i < a.length; i++) {
+			a[i] = 10 * (i + 1);
+			System.out.print(a[i] + "\t");
+		}
+		System.out.println();
+
+		int[] b = new int[98 / 5 + 1];
+		for (int i = 0; i < b.length; i++) {
+			b[i] = 5 * i + 3;
+			System.out.print(b[i] + "\t");
+		}
+		System.out.println();
+
+		int[] c = new int[92 / 10 + 1];
+		for (int i = 0; i < c.length; i++) {
+			c[i] = 92 - 10 * i;
+			System.out.print(c[i] + "\t");
+		}
 	}
 
 	private static void Ex7() {
@@ -59,7 +70,7 @@ public class WhileEx {
 
 		for (int i = 0; i < 5; i++) {
 			for (int j = 1; j < 6; j++) {
-				System.out.print(i+j);
+				System.out.print(i + j);
 			}
 			System.out.println();
 		}
@@ -93,16 +104,16 @@ public class WhileEx {
 		while (true) {
 			// System.out.print("정답은 ? ");
 			// int ans = sc.nextInt();
-			
+
 			// if(ans == ran) {
-			// 	System.out.println("정답입니다!");
-			// 	break;
+			// System.out.println("정답입니다!");
+			// break;
 			// } else if (ans > ran) {
-			// 	System.out.println("그거보단 작아요");
+			// System.out.println("그거보단 작아요");
 			// } else {
-			// 	System.out.println("그거보단 커요");
+			// System.out.println("그거보단 커요");
 			// }
-			
+
 			cnt += 1;
 
 			if (ran == tmp) {

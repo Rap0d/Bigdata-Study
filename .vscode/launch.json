@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Swap",
+            "request": "launch",
+            "mainClass": "Jv_190822_05.Swap",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ArrayEx",
+            "request": "launch",
+            "mainClass": "Jv_190822_05.ArrayEx",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ds01",
+            "request": "launch",
+            "mainClass": "Jv_190822_05.Ds01",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - ArrayEx",
             "request": "launch",
             "mainClass": "Jv_190821_04.ArrayEx",
