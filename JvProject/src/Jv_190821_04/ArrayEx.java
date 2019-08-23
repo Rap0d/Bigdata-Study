@@ -12,7 +12,41 @@ public class ArrayEx {
         // Ex01();
         // celeb();
         // Ex02();
-        Ex03();
+        // Ex03();
+        Ex04();
+    }
+
+    private static void Ex04() {
+        Scanner sc = new Scanner(System.in);
+        int max = 0;
+        int total = 0;
+
+
+        System.out.print("학생수를 입력하세요 : ");
+        max = sc.nextInt();
+        System.out.println();
+
+        String name[] = new String[max];
+        int score[][] = new int[max][3];
+
+        for (int i = 0; i < max; i++) {
+            System.out.print((i + 1) + "번째 학생 이름 : ");
+            name[i] = sc.next();
+
+            for (int j = 0; j <= score.length; j++) {
+                System.out.print((i + 1) + "번째 학생 국어 점수 : ");
+                score[i][j] = sc.nextInt();
+            }
+            System.out.println();
+        }
+        for (int i = 0; i < max; i++) {
+            System.out.println((i+1) + "번째 학생의 정보");
+            System.out.print("이름 : " + name[i] + ", 총점 : ");
+            for(int j = 0; j <= score.length; j++) {
+                total += score[i][j];
+            }
+            System.out.println(total + ", 평균 : " + (double)(total/max));
+        }
     }
 
     private static void Ex03() {
@@ -26,10 +60,10 @@ public class ArrayEx {
         for (int i = 0; i < arr.length; i++) {
             System.out.print("입력하세요 : ");
             arr[i] = sc.nextInt();
-            if(arr[i]%2 == 0)
-            even += arr[i];
+            if (arr[i] % 2 == 0)
+                even += arr[i];
             else
-            odd += arr[i];
+                odd += arr[i];
         }
 
         System.out.println("even : " + even + ", odd : " + odd);
@@ -39,7 +73,7 @@ public class ArrayEx {
         int[] ar = new int[5];
         int total = 0;
 
-        for(int i = 0; i < ar.length; i++) {
+        for (int i = 0; i < ar.length; i++) {
             ar[i] = new Random().nextInt(3) + 3;
         }
         for (int i : ar) {
@@ -58,7 +92,7 @@ public class ArrayEx {
 
         System.out.print("배열의 크기는 ? ");
         try {
-            max = sc.nextInt();   
+            max = sc.nextInt();
         } catch (Exception e) {
             System.err.println("숫자가 아니애오");
         }
