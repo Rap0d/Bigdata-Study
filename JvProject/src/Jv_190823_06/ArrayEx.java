@@ -2,6 +2,15 @@ package Jv_190823_06;
 
 public class ArrayEx {
 	public static void main(String[] args) {
+		ex01();
+		ex02();
+	}
+
+	private static void ex02() {
+		
+	}
+
+	private static void ex01() {
 		int[] arr = {10, 20, 30};
 		
 		int result = arrsum(arr);
