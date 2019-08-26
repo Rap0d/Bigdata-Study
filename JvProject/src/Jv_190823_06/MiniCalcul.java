@@ -31,56 +31,92 @@ public class MiniCalcul {
                 System.out.println("종료합니다.");
                 break;
             case 3:
-                switch (Integer.parseInt(menu)) {
-                case 1:
-                    plus();
-                    break;
-                case 2:
-                    minu();
-                    break;
-                case 3:
-                    mult();
-                    break;
-                case 4:
-                    divi();
-                    break;
-                case 5:
-                    minu();
-                    break;
-                }
+                oper(Integer.parseInt(menu));
                 break;
             }
         }
-        sc.close();
     }
 
-    private static void divi() {
-    }
-
-    private static void mult() {
-    }
-
-    private static void minu() {
-    }
-
-    private static void plus() {
+    private static void oper(int menu) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("더하기 연산입니다.\n더할 숫자의 갯수를 입력하세요.");
-        int max = sc.nextInt();
+        switch (menu) {
+        case 1:
+            System.out.println("덧셈 연산입니다.\n더할 숫자의 갯수를 입력하세요.");
+            break;
+        case 2:
+            System.out.println("뺄셈 연산입니다.\n뺄 숫자의 갯수를 입력하세요.");
+            break;
+        case 3:
+            System.out.println("곱셈 연산입니다.\n곱할 숫자의 갯수를 입력하세요.");
+            break;
+        case 4:
+            System.out.println("나눗셈 연산입니다.\n나눌 숫자의 갯수를 입력하세요.");
+            break;
+        case 5:
+            System.out.println("나머지 연산입니다.\n");
+            break;
+        }
+        int max = 0;
+        if (menu != 5)
+            max = sc.nextInt();
+        else
+            max = 2;
+
         int[] arr = new int[max];
+        int res = 0;
+
         System.out.println(max + "개 입력하세요.");
+
         for (int i = 0; i < max; i++) {
-            System.out.print(i + "번째 숫자 : ");
+            System.out.print((i + 1) + "번째 숫자 : ");
             arr[i] = sc.nextInt();
         }
+
         for (int i = 0; i < max; i++) {
-            if(i < (max-1)) System.out.print(arr[i] + " + ");
-            else System.out.print(arr[i] + " = ");
+            switch (menu) {
+            case 1:
+                res += arr[i];
+                if (i < (max - 1))
+                    System.out.print(arr[i] + " + ");
+                else
+                    System.out.print(arr[i] + " = ");
+                break;
+            case 2:
+                if(i != 0) res -= arr[i];
+                else res += arr[i];
+                if (i < (max - 1))
+                    System.out.print(arr[i] + " - ");
+                else
+                    System.out.print(arr[i] + " = ");
+                break;
+            case 3:
+                if(i == 0) res = 1;
+                res *= arr[i];
+                if (i < (max - 1))
+                    System.out.print(arr[i] + " * ");
+                else
+                    System.out.print(arr[i] + " = ");
+                break;
+            case 4:
+                if(i == 0) res = 1;
+                res /= arr[i];
+                if (i < (max - 1))
+                    System.out.print(arr[i] + " / ");
+                else
+                    System.out.print(arr[i] + " = ");
+                break;
+            case 5:
+                res = 1;
+                res %= arr[i];
+                if (i < (max - 1))
+                    System.out.print(arr[i] + " % ");
+                else
+                    System.out.print(arr[i] + " = ");
+                break;
+            }
+
         }
-        for (int i = 0; i < max; i++) {
-            
-        }
-        sc.close();
+        System.out.println(res);
     }
 
     private static int valid(String menu) {

@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - MethodEx",
+            "request": "launch",
+            "mainClass": "Jv_190826_07.MethodEx",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - MiniCalcul",
             "request": "launch",
             "mainClass": "Jv_190823_06.MiniCalcul",
