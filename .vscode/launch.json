@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - PersonMain",
+            "request": "launch",
+            "mainClass": "Jv_190826_07.PersonMain",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ClassEx",
+            "request": "launch",
+            "mainClass": "Jv_190826_07.ClassEx",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - MethodEx",
             "request": "launch",
             "mainClass": "Jv_190826_07.MethodEx",
