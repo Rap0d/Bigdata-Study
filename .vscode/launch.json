@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - RectangleMain",
+            "request": "launch",
+            "mainClass": "Jv_190828_09.RectangleMain",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DiceMain",
+            "request": "launch",
+            "mainClass": "Jv_190828_09.DiceMain",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - HaksengMain",
+            "request": "launch",
+            "mainClass": "Jv_190828_09.HaksengMain",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - GoodsMain01",
             "request": "launch",
             "mainClass": "Jv_190828_09.GoodsMain01",

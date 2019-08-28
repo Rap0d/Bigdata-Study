@@ -12,7 +12,6 @@ public class Goods01 {
     public static int allSold = 0;
 
     public Goods01(String name, int price, int stack, int sold) {
-        super();
         this.name = name;
         this.price = price;
         this.stack = stack;
