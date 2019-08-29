@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Ans11",
+            "request": "launch",
+            "mainClass": "Jv_190829_10.Ans11",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Ans29mini",
             "request": "launch",
             "mainClass": "Jv_190829_10.Ans29mini",
