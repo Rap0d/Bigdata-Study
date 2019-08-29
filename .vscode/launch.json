@@ -2,6 +2,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Ans29mini",
+            "request": "launch",
+            "mainClass": "Jv_190829_10.Ans29mini",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ans30",
+            "request": "launch",
+            "mainClass": "Jv_190829_10.Ans30",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - HumanTest",
+            "request": "launch",
+            "mainClass": "Jv_190829_10.HumanTest",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Atest",
+            "request": "launch",
+            "mainClass": "Jv_190829_10.Atest",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StudentMain",
+            "request": "launch",
+            "mainClass": "Jv_190829_10.StudentMain",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - RectangleMain",
             "request": "launch",
             "mainClass": "Jv_190828_09.RectangleMain",
