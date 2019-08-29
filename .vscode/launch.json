@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - FruitMain",
+            "request": "launch",
+            "mainClass": "Jv_190829_10.FruitMain",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SubObject",
+            "request": "launch",
+            "mainClass": "Jv_190829_10.SubObject",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SuperObject$SubObject",
+            "request": "launch",
+            "mainClass": "Jv_190829_10.SuperObject$SubObject",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Ans11",
             "request": "launch",
             "mainClass": "Jv_190829_10.Ans11",
