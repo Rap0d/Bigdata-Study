@@ -7,7 +7,7 @@ public class Child05 extends Parent05 {
     // @다음에 의미있는 단어를 붙여 개발자에게 제공하는 일종의 고급스런 툴팁/주석
     @Override // Display 메소드는 오버라이드 되었다.
     public void Display() {
-        String imsi = "이름 : " + super.getName() + ", 나이 : " + super.getAge();
+        String imsi = "오버라이드 이름 : " + super.getName() + ", 나이 : " + super.getAge();
         System.out.println(imsi);
     }
 
