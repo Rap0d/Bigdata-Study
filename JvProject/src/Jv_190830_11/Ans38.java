@@ -14,7 +14,7 @@ public class Ans38 {
         }
         System.out.println("총 판매 권수 : " + Book.totalcnt);
         for (int i = 0; i < myBook.length; i++) {
-            System.out.println(i + "번째 품목");
+            System.out.println((i+1) + "번째 품목");
             myBook[i].display();
         }
     }

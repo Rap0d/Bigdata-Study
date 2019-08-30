@@ -1,5 +1,8 @@
 package Jv_190830_11;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.Scanner;
 
 /**
@@ -14,14 +17,22 @@ public class Book {
     static int count = 0;
 
     public Book() {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("품목 : ");
-        article = sc.nextLine();
-        System.out.print("수량 : ");
-        qty = sc.nextInt();
-        System.out.print("단가 : ");
-        cost = sc.nextInt();
+        BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 
+        try {
+            System.out.print("품목 : ");
+            article = in.readLine();
+            System.out.print("수량 : ");
+            qty = Integer.parseInt(in.readLine());
+            System.out.print("단가 : ");
+            cost = Integer.parseInt(in.readLine());
+        } catch (NumberFormatException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        } catch (IOException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
         totalcnt += qty;
         count++;
     }
