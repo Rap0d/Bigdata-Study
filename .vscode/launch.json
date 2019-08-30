@@ -2,6 +2,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Inhe05",
+            "request": "launch",
+            "mainClass": "Jv_190830_11.Inhe05",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PointVectorEx",
+            "request": "launch",
+            "mainClass": "Jv_190830_11.PointVectorEx",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - VectorEx",
+            "request": "launch",
+            "mainClass": "Jv_190830_11.VectorEx",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PointMain",
+            "request": "launch",
+            "mainClass": "Jv_190830_11.PointMain",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - InheTest2",
+            "request": "launch",
+            "mainClass": "Jv_190830_11.InheTest2",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - InheTest",
+            "request": "launch",
+            "mainClass": "Jv_190830_11.InheTest",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - FruitMain",
             "request": "launch",
             "mainClass": "Jv_190829_10.FruitMain",
