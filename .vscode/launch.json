@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - GetIntersectPoint2D",
+            "request": "launch",
+            "mainClass": "Jv_190902_12.GetIntersectPoint2D",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - CollectionsEx",
             "request": "launch",
             "mainClass": "Jv_190902_12.CollectionsEx",
