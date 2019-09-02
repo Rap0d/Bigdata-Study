@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - IteratorEx",
+            "request": "launch",
+            "mainClass": "Jv_190830_11.IteratorEx",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ArrayListEx",
+            "request": "launch",
+            "mainClass": "Jv_190830_11.ArrayListEx",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Ans38",
             "request": "launch",
             "mainClass": "Jv_190830_11.Ans38",
