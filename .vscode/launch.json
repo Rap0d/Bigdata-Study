@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - SportsTest",
+            "request": "launch",
+            "mainClass": "Jv_190902_12.SportsTest",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TvTestMain01",
+            "request": "launch",
+            "mainClass": "Jv_190902_12.TvTestMain01",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - GetIntersectPoint2D",
             "request": "launch",
             "mainClass": "Jv_190902_12.GetIntersectPoint2D",
