@@ -2,6 +2,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - CollectionsEx",
+            "request": "launch",
+            "mainClass": "Jv_190902_12.CollectionsEx",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ans36",
+            "request": "launch",
+            "mainClass": "Jv_190902_12.Ans36",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - HashMapStudentEx",
+            "request": "launch",
+            "mainClass": "Jv_190830_11.HashMapStudentEx",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - HashMapScoreEx",
+            "request": "launch",
+            "mainClass": "Jv_190830_11.HashMapScoreEx",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - HashMapDicEx",
+            "request": "launch",
+            "mainClass": "Jv_190830_11.HashMapDicEx",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - IteratorEx",
             "request": "launch",
             "mainClass": "Jv_190830_11.IteratorEx",
