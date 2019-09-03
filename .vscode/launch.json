@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - PersonMain",
+            "request": "launch",
+            "mainClass": "Jv_190903_13.PersonMain",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MyStack",
+            "request": "launch",
+            "mainClass": "Jv_190903_13.MyStack",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - RefCasting",
             "request": "launch",
             "mainClass": "Jv_190903_13.RefCasting",

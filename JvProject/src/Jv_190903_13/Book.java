@@ -26,7 +26,7 @@ class Book {
     @Override
     public String toString() {
         String result = "";
-        ;
+        
         result += "과목 : " + this.name + "\n";
         result += "수업료 : " + this.price + "\n";
         result += "교육 기관 : " + this.education;
