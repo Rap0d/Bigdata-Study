@@ -2,6 +2,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - RefCasting",
+            "request": "launch",
+            "mainClass": "Jv_190903_13.RefCasting",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Ref01",
+            "request": "launch",
+            "mainClass": "Jv_190903_13.Ref01",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Test001",
+            "request": "launch",
+            "mainClass": "Jv_190903_13.Test001",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - EnumTest",
+            "request": "launch",
+            "mainClass": "Jv_190903_13.EnumTest",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - SportsTest",
             "request": "launch",
             "mainClass": "Jv_190902_12.SportsTest",
