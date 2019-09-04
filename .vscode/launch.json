@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - FileInputStreamEx",
+            "request": "launch",
+            "mainClass": "Jv_190904_14.FileInputStreamEx",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - PayTable",
+            "request": "launch",
+            "mainClass": "Jv_190904_14.PayTable",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - InterfaceTest01",
             "request": "launch",
             "mainClass": "Jv_190904_14.InterfaceTest01",
