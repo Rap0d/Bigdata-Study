@@ -2,6 +2,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - InterfaceTest01",
+            "request": "launch",
+            "mainClass": "Jv_190904_14.InterfaceTest01",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Interface01",
+            "request": "launch",
+            "mainClass": "Jv_190904_14.Interface01",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - UniconMain",
+            "request": "launch",
+            "mainClass": "Jv_190904_14.UniconMain",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - AnimalMain",
+            "request": "launch",
+            "mainClass": "Jv_190904_14.AnimalMain",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - GenericMethodEx",
+            "request": "launch",
+            "mainClass": "Jv_190903_13.GenericMethodEx",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Final01",
             "request": "launch",
             "mainClass": "Jv_190903_13.Final01",
