@@ -2,6 +2,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - StrRev",
+            "request": "launch",
+            "mainClass": "Jv_190905_15.StrRev",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CalEx",
+            "request": "launch",
+            "mainClass": "Jv_190905_15.CalEx",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DateFormat",
+            "request": "launch",
+            "mainClass": "Jv_190905_15.DateFormat",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MyDateMain",
+            "request": "launch",
+            "mainClass": "Jv_190905_15.MyDateMain",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TestRan",
+            "request": "launch",
+            "mainClass": "Jv_190905_15.TestRan",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MathExam",
+            "request": "launch",
+            "mainClass": "Jv_190905_15.MathExam",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - A03_MathEx",
+            "request": "launch",
+            "mainClass": "Jv_190905_15.A03_MathEx",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - FileInputStreamEx",
             "request": "launch",
             "mainClass": "Jv_190904_14.FileInputStreamEx",
