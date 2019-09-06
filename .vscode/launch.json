@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - StringTokenizerEx",
+            "request": "launch",
+            "mainClass": "Jv_190906_16.StringTokenizerEx",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RollingDice",
+            "request": "launch",
+            "mainClass": "Jv_190906_16.RollingDice",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - WrapperEx",
+            "request": "launch",
+            "mainClass": "Jv_190906_16.WrapperEx",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - StrRev",
             "request": "launch",
             "mainClass": "Jv_190905_15.StrRev",
