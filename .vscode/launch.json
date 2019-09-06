@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - MyDateMain",
+            "request": "launch",
+            "mainClass": "Jv_190906_16.MyDateMain",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - DecimalFormatEx",
+            "request": "launch",
+            "mainClass": "Jv_190906_16.DecimalFormatEx",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - StringTokenizerEx",
             "request": "launch",
             "mainClass": "Jv_190906_16.StringTokenizerEx",
