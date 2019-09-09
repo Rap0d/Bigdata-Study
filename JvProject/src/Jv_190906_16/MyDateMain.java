@@ -14,7 +14,7 @@ class MyDate {
     @Override
     public boolean equals(Object target) {
         MyDate mydate = (MyDate) target;
-        boolean result = this.year == mydate.year && this.month == mydate.month && this.day == mydate.day;
+        boolean result = (this.year == mydate.year) && (this.month == mydate.month) && (this.day == mydate.day);
 
         return result;
     }

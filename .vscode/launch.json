@@ -2,6 +2,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - MyExceptionEx01",
+            "request": "launch",
+            "mainClass": "Jv_190909_17.MyExceptionEx01",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Hplm",
+            "request": "launch",
+            "mainClass": "Jv_190906_16.Hplm",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ArraysEx",
+            "request": "launch",
+            "mainClass": "Jv_190906_16.ArraysEx",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MyRectMain",
+            "request": "launch",
+            "mainClass": "Jv_190906_16.MyRectMain",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - MyDateMain",
             "request": "launch",
             "mainClass": "Jv_190906_16.MyDateMain",
