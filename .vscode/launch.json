@@ -2,6 +2,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Thread02",
+            "request": "launch",
+            "mainClass": "Jv_190909_17.Thread02",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Thread01",
+            "request": "launch",
+            "mainClass": "Jv_190909_17.Thread01",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Lotto",
+            "request": "launch",
+            "mainClass": "Jv_190909_17.Lotto",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - GGException",
+            "request": "launch",
+            "mainClass": "Jv_190909_17.GGException",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - UnderFive",
+            "request": "launch",
+            "mainClass": "Jv_190909_17.UnderFive",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - upndown",
+            "request": "launch",
+            "mainClass": "Jv_190909_17.upndown",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Exception01",
+            "request": "launch",
+            "mainClass": "Jv_190909_17.Exception01",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - MyExceptionEx01",
             "request": "launch",
             "mainClass": "Jv_190909_17.MyExceptionEx01",
