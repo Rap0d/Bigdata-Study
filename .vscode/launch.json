@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - CusGene",
+            "request": "launch",
+            "mainClass": "Jv_190910_18.CusGene",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - HashSetEx",
+            "request": "launch",
+            "mainClass": "Jv_190910_18.HashSetEx",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ExceptionEx01",
+            "request": "launch",
+            "mainClass": "Jv_190909_17.ExceptionEx01",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Thread02",
             "request": "launch",
             "mainClass": "Jv_190909_17.Thread02",
