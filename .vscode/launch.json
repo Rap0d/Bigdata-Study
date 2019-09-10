@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - TokenList",
+            "request": "launch",
+            "mainClass": "Jv_190910_18.TokenList",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - StudentEx",
+            "request": "launch",
+            "mainClass": "Jv_190910_18.StudentEx",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - CandidateEx",
+            "request": "launch",
+            "mainClass": "Jv_190910_18.CandidateEx",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - CusGene",
             "request": "launch",
             "mainClass": "Jv_190910_18.CusGene",
