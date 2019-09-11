@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - HashTableEx",
+            "request": "launch",
+            "mainClass": "Jv_190911_19.HashTableEx",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - PropertyEx",
             "request": "launch",
             "mainClass": "Jv_190911_19.PropertyEx",
