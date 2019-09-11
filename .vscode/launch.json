@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - PropertyEx",
+            "request": "launch",
+            "mainClass": "Jv_190911_19.PropertyEx",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - HashMapEx",
+            "request": "launch",
+            "mainClass": "Jv_190911_19.HashMapEx",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MyArrayList2",
+            "request": "launch",
+            "mainClass": "Jv_190910_18.MyArrayList2",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - TokenList",
             "request": "launch",
             "mainClass": "Jv_190910_18.TokenList",
