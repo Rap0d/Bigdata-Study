@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - DosirakMain",
+            "request": "launch",
+            "mainClass": "Jv_190911_19.DosirakMain",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - List2TableEx",
+            "request": "launch",
+            "mainClass": "Jv_190911_19.List2TableEx",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - HashTableEx",
             "request": "launch",
             "mainClass": "Jv_190911_19.HashTableEx",
