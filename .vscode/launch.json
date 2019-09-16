@@ -2,6 +2,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - FileWriterEx",
+            "request": "launch",
+            "mainClass": "Jv_190916_20.FileWriterEx",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FindKang",
+            "request": "launch",
+            "mainClass": "Jv_190916_20.FindKang",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - FindIdLine",
+            "request": "launch",
+            "mainClass": "Jv_190916_20.FindIdLine",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Samram",
             "request": "launch",
             "mainClass": "Jv_190911_19.Samram",

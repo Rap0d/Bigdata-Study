@@ -17,14 +17,25 @@ public class Samram {
 
             int c;
             String str = null;
-            
+            String tmp = "";
+            int si = 0, ei = 0;
+
             while ((c = isr.read()) != -1) {
                 // System.out.print((char) c);
-                str += (char)c;
+                str += (char) c;
+
             }
-            System.out.println(str);
             
+            si = str.indexOf("(");
+            ei = str.indexOf(")");
+            if (str.equals("\\n"))
+                tmp = "";
+            for (int i = si; i <= ei; i++) {
+                tmp += str.charAt(i);
+            }
+
             System.out.println();
+            System.out.println("tmp : " + tmp);
             System.out.println("==============================================");
             System.out.println("FILE FINISHED");
         } catch (Exception e) {
