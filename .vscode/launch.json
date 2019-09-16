@@ -2,6 +2,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Samram",
+            "request": "launch",
+            "mainClass": "Jv_190911_19.Samram",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BufferedIOEx",
+            "request": "launch",
+            "mainClass": "Jv_190916_20.BufferedIOEx",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BufferedReaderEx",
+            "request": "launch",
+            "mainClass": "Jv_190916_20.BufferedReaderEx",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ThreadHomeWork",
+            "request": "launch",
+            "mainClass": "Jv_190916_20.ThreadHomeWork",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ListTest",
+            "request": "launch",
+            "mainClass": "Jv_190916_20.ListTest",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MyStack",
+            "request": "launch",
+            "mainClass": "Jv_190916_20.MyStack",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LotSet",
+            "request": "launch",
+            "mainClass": "Jv_190911_19.LotSet",
+            "projectName": "JvProject"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - DosirakMain",
             "request": "launch",
             "mainClass": "Jv_190911_19.DosirakMain",
