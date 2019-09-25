@@ -4,7 +4,7 @@ import java.io.*;
 
 public class FileWriterEx {
     public static void main(String[] args) {
-        String pathname = "../testfile.txt"; // 새롭게 작성될 파일 이름
+        String pathname = "../testfile1.txt"; // 새롭게 작성될 파일 이름
         File target = new File(pathname);
         FileWriter fw = null;
         BufferedWriter bw = null;
@@ -31,12 +31,10 @@ public class FileWriterEx {
 
         } finally {
             try {
-                if (bw != null) {
+                if (bw != null)
                     bw.close();
-                }
-                if (fw != null) {
+                if (fw != null)
                     fw.close();
-                }
             } catch (IOException e) {
                 e.printStackTrace();
             }
